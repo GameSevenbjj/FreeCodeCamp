@@ -1,0 +1,122 @@
+body, {
+    height: 50%;
+    min-width:800px;
+    min-height:800px;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: inside;
+    width: 50%;
+   
+  
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.DuTMS2-ECIZd4aQEn_acrAHaE6%26pid%3DApi&f=1");
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
+  
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bg-text {
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    padding-top: 10%;
+    text-align: center;
+    max-height: 50%;
+    margin: auto;
+  
+  }
+  
+  h1, p {
+      text-align: center;
+      color: Black;
+      margin-top: auto;
+  }
+  
+  h1 {
+      font-family: fantasy;
+      font-size: 40;
+  
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    display: block;
+    
+  }
+  
+  .border {
+    border-radius: 6px;
+  }
+  
+  input, select, textarea {
+    margin: 10px 2 2 0;
+    width: 100%;
+    min-height: 2.5em;
+  }
+  
+   
+  
+   form {
+       background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    background: cover;
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+   }
+  
+  
+  .padding {
+    padding-right: 100%;
+  }
+  
+  .padding2 {
+    padding-right: 71%;
+  }
+  
+  .padding3 {
+    padding-right: 70%;
+  }
+  
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+    padding-right: 80%;
+  }
+  
+  .padding4 {
+    padding-right: 90%;
+  }
+  
+  .padding5 {
+    padding-right:69%;
+  }
+  
+  .padding6 {
+    padding-right: 90%
+  }
+  
+  
